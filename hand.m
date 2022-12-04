@@ -38,7 +38,7 @@ K = data;
 Clusters= 10; %number of clusters.
 View_num=4; %number of views present in the dataset.
 View_data_num=size(K,1)/View_num;
-p_list = [1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 50];
+p_list = [2 2.5];
 
 
 Cluster_labels_MVKKM = [];
