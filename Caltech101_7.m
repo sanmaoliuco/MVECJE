@@ -35,7 +35,7 @@ View_data_num=size(K,1)/View_num;
 
 % Ground_truth = [ones(200,1); 2.* ones(200,1); 3.* ones(200,1); 4.* ones(200,1) ];
 Ground_truth = f.Y;
-p_list = [1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 50];
+p_list = [2 2.5];
 
 
 Cluster_labels_MVKKM = [];
